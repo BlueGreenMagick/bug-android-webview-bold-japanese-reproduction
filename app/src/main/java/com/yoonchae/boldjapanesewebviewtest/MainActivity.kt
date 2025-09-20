@@ -60,7 +60,9 @@ fun WebScreen(modifier: Modifier = Modifier) {
                     setAcceptThirdPartyCookies(wv, true)
                 }
 
-                loadUrl("https://google.com")
+                clearCache(true)
+
+                loadUrl("https://bluegreenmagick.github.io/bug-android-webview-bold-japanese-reproduction/")
             }
         }, modifier = modifier.padding(innerPadding))
     }
