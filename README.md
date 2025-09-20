@@ -16,8 +16,7 @@ Android System WebView version 140+ has a bug where **bold and italic formatting
 ## Test Cases
 This repository contains test files demonstrating the issue and the fix:
 - `docs/one.html` - Shows the bug (bold Japanese text renders as regular)
-- `docs/two.html` - Shows the fix using `lang="ja"` attribute
-- `docs/three.html` - Shows how noltools.js accidentally fixes it by setting `html.lang = "ja"`
+- `docs/two.html` - Shows the workaround using `lang="ja"` attribute
 
 ## Links
 Originally reported on Ankidroid: https://github.com/ankidroid/Anki-Android/issues/19248
